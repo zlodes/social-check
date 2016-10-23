@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Social Check</title>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="jquery.socials-check.min.js"></script>
+
+</head>
+<body>
+
+<script>
+	jQuery(function ($) {
+		$.socialCheck(['VK', 'Facebook', 'Twitter']).then(function (res) {
+			$.each(res, function (index, val) {
+				var $block = $("<div></div>").text(index + ': ' + (val ? 'Logged in' : 'Not logged in'));
+				$('body').append($block);
+			});
+			
+		});
+	});
+</script>
+
+</body>
+</html>

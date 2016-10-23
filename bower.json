@@ -1,0 +1,21 @@
+{
+  "name": "social-check",
+  "main": "social-check.js",
+  "homepage": "https://github.com/zlodes/social-check",
+  "authors": [
+    "Zlatoslav <px.zlodes@gmail.com>"
+  ],
+  "description": "JavaScript & JQuery tool for checking auth on popular social services",
+  "keywords": [
+    "social",
+    "networks"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
