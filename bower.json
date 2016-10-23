@@ -1,6 +1,12 @@
 {
   "name": "social-check",
-  "main": "social-check.js",
+	"main": [
+		"social-check.js",
+		"jquery.social-check.js",
+		"jquery.social-check.min.js",
+		"README.md",
+		"example.html"
+	],
   "homepage": "https://github.com/zlodes/social-check",
   "authors": [
     "Zlatoslav <px.zlodes@gmail.com>"
