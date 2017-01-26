@@ -1,11 +1,6 @@
 # social-check
 JavaScript & JQuery tool for checking auth on popular social services
 
-## Installation
-```
-bower install https://github.com/zlodes/social-check
-```
-
 ## Usage
 ###jQuery
 ```
