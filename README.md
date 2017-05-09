@@ -2,7 +2,7 @@
 JavaScript & JQuery tool for checking auth on popular social services
 
 ## Usage
-###jQuery
+### jQuery
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="bower-components/social-check/jquery.socials-chech.min.js"></script>
